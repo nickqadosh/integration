@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="head">
+            <img src="img/meteologo.png" alt="logo">
+            <p>Créez votre profil Meteojob</p>
+        </div>
+        <form method="POST" action="">
+            <div class="name">
+                <div>
+                <label for="prenom">Prénom</label><br>
+                            <input type="text" name="prenom" id="prenom" placeholder="Votre prenom" placeholder="Votre prenom" required/>
+                </div>
+                <div>
+                    <label for="nom">Nom</label><br>
+                    <input type="text" name="nom" id="nom" placeholder="Votre nom" placeholder="Votre nom">
+                </div>
+            </div>
+            <section class="corps">
+                <div>
+                <label for="email">Adresse e-mail</label><br>
+                <input type="email" name="email" id="email" placeholder="Votre adresse email">
+                </div>
+                
+                    
+                    <label for="pass">Mot de passe</label><br>
+                <div class="password">
+                    <input type="password" name="pass" id="pass" placeholder="Choisissez votre mot de passe">
+                    <img src="img/oeil.png" alt="oeil">
+                </div>
+                <div>
+                <label for="poste">Poste recherché</label><br>
+                <input type="text" name="poste" id="poste" placeholder="Ex: chef de projet, cuisinier">
+                </div>
+                <div>
+                <label for="trav">Où souhaitez-vous travaillez?</label><br>
+                <input type="text" name="trav" id="trav" placeholder="Ex: Essonne, Nantes,Bretagne"><br>
+                </div>
+            </section>
+            <section class="checkbox">
+                <p>Types de contrats recherchés</p>
+                <div>
+                    <input type="checkbox" name="trav_type" value="CDI" id="CDI">
+                    <label for="CDI">CDI</label>
+                    
+                    <input type="checkbox" name="trav_type" value="CDD" id="CDD">
+                    <label for="CDD">CDD</label>
+                   
+                    <input type="checkbox" name="trav_type" value="ind" id="ind">
+                    <label for="ind">Indépendant/ Franchisé</label>
+                   
+                    <input type="checkbox" name="trav_type" value="interim" id="interim">
+                    <label for="interim">Intérim</label>
+                    
+                    <input type="checkbox" name="trav_type" value="stage" id="stage">
+                    <label for="stage">Stage</label>
+                    
+                    <input type="checkbox" name="trav_type" value="alt" id="alt">
+                    <label for="alt">Alternance/ Apprentissage</label>
+                    <p>+de types de contrat</p>
+                   
+                      
+                </div>
+               
+           </section>
+
+            <div class="footer">
+                <p>J'accepte les <a href="#">conditions générales</a> pour créer mon compte,<br>
+                bénéficier des services de matching et postuler aux offres:</p>
+                <div class="checkbox-btn">
+                    <input type="checkbox" name="">
+                    <div><span class="slide"></span></div>
+                </div>
+            </div>
+            <div class="submit">
+            <input type="submit" value="continuer">
+            </div>  
+        </form>  
+
+    </main>       
+
+</body>
+</html>
