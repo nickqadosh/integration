@@ -6,11 +6,9 @@ body{
     background-image: url("img/bg-clouds.png");
     background-color: #56ace3;
     width: 100vw;
-    height: 100vh;
 }
 main{
-    width: 40%;
-    height: 100vh;
+    width: 40vw;
     margin: auto;
 }
 .password{
@@ -62,7 +60,6 @@ form{
     width: 90%;
 }
 .corps div{
-    
     margin-bottom: 1.25em;
 }
 .corps div input{
@@ -190,8 +187,7 @@ a{
 
 }
 .submit{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
