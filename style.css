@@ -1,10 +1,14 @@
 body{
     font-family: 'Open Sans', sans-serif;
     color: #16354e;
-    font-size: 17px;
-    line-height: 20px;
+    font-size: 1.1em;
+    line-height: 1.25em;
     background-image: url("img/bg-clouds.png");
     background-color: #56ace3;
+    width: 100vw;
+    height: 100vh;
+}
+main{
     width: 40%;
     height: 100vh;
     margin: auto;
@@ -15,63 +19,59 @@ body{
     align-items: center;
     border: 1px solid lightgrey;
     border-radius: 2px;
+    width: 98%;
     
 }
 img{
-    padding-right: 5px;
+    padding-right: 0.25em;
 }
 .password input{
     border: none;
     outline: none;
 }
-.password:focus{
-    
-}
 .name,.corps,.checkbox>p,.footer{
     font-weight:bold;
 }
 form{
-    height: 80vh;
-    
+    height: 80vh; 
 }
 .head{
     font-family: 'Poiret One', cursive;
-    font-size: 21px;
-    line-height: 23.1px;
+    font-size: 1.3em;
+    line-height: 1.5em;
     font-weight: bold;
     position: relative;
     text-align: center;
     color: #fff;
-    margin-top: 15px;
+    margin-top: 1em;
 }
 .name{
-    
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 1.4em;
 }
 .name div{
     width: 60%;
 }
 .name div:last-child{
-    margin-left: 25px;
+    margin-left: 1.5em;
 }
 .name div input{
-    padding: 15px 10px;
-    margin-top: 5px;
+    padding: 1em 0.6em;
+    margin-top: 0.5em;
     width: 90%;
 }
 .corps div{
     
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
 }
 .corps div input{
-    padding: 15px 10px;
+    padding: 1em 0.6em;
     width: 95%;
-    margin-top: 5px;
+    margin-top: 0.5em;
 }
 form{
-     padding: 25px;
+     padding: 1.5em;
      background: white;
      height: 85vh;
      font-family: 'Open Sans',Arial,sans-serif;
@@ -81,10 +81,14 @@ form{
 }
 .checkbox div{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
     grid-template-rows: 1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 0.5em;
     
+}
+a{
+    color: #16354e;
+    text-decoration-color: currentColor;
 }
 .checkbox label{
     display: flex;
@@ -177,16 +181,17 @@ form{
 .submit input{
     background-color:#217dbb;
     font-family: 'open sans',arial,sans-serif;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 1.25em;
+    line-height: 1.5em;
     color: white;
     width: 8vw;
     height: 6vh;
     border: none;
+
 }
 .submit{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
 }
