@@ -30,9 +30,7 @@ img{
 .name,.corps,.checkbox>p,.footer{
     font-weight:bold;
 }
-form{
-    height: 80vh; 
-}
+
 .head{
     font-family: 'Poiret One', cursive;
     font-size: 1.3em;
@@ -70,7 +68,6 @@ form{
 form{
      padding: 1.5em;
      background: white;
-     height: 85vh;
      font-family: 'Open Sans',Arial,sans-serif;
 }
 .checkbox input{
