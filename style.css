@@ -56,6 +56,8 @@ img{
     padding: 1em 0.6em;
     margin-top: 0.5em;
     width: 90%;
+    font-size: 1em;
+    font-family: 'Open Sans',Arial,sans-serif;
 }
 .corps div{
     margin-bottom: 1.25em;
@@ -64,6 +66,8 @@ img{
     padding: 1em 0.6em;
     width: 95%;
     margin-top: 0.5em;
+    font-size: 1em;
+    font-family: 'Open Sans',Arial,sans-serif;
 }
 form{
      padding: 1.5em;
@@ -75,10 +79,16 @@ form{
 }
 .checkbox div{
     display: grid;
-    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 0.5em;
-    
+}
+#one{
+    background-color: #217dbb;
+    color: white;
+}
+.checkbox p{
+    grid-area: 2/3/2/5;
 }
 a{
     color: #16354e;
@@ -145,7 +155,7 @@ a{
     transform: translateX(60px)
 }
 .checkbox-btn .slide:before{
-    content: 'ON';
+    content: 'OUI';
     position: absolute;
     top: 0;
     left: -60px;
@@ -159,7 +169,7 @@ a{
     font-size: 14px;
 }
 .checkbox-btn .slide:after{
-    content: 'OFF';
+    content: 'NON';
     position: absolute;
     top: 0;
     right:-60px;
