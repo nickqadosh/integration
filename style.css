@@ -106,7 +106,7 @@ form{
 }
 .checkbox-btn{
     position: relative;
-    top: 30px;
+    top: 43px;
     left: 45px;
    
     transform: translate(-50%,-50%);
@@ -175,16 +175,18 @@ form{
     font-size: 14px;
 }
 .submit input{
-    position: relative;
-    margin: 17px auto;
     background-color:#217dbb;
     font-family: 'open sans',arial,sans-serif;
     font-size: 18px;
     line-height: 24px;
     color: white;
-    display: block;
     width: 8vw;
     height: 6vh;
     border: none;
-    
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
 }
