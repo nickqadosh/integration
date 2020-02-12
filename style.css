@@ -8,7 +8,7 @@ body{
     width: 100vw;
 }
 main{
-    width: 40vw;
+    width: 700px;
     margin: auto;
 }
 .password{
@@ -190,8 +190,8 @@ a{
     font-size: 1.25em;
     line-height: 1.5em;
     color: white;
-    width: 8vw;
-    height: 6vh;
+    width: 120px;
+    height: 60px;
     border: none;
 
 }
